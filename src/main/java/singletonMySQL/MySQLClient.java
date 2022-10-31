@@ -11,10 +11,10 @@ public class MySQLClient {
     private Connection connect = null;
     private Statement statement = null;
     private ResultSet resultSet = null;
-    private String server = "localhost";
-    private String dataBase = "exampleDB";
-    private String user = "root";
-    private String pass = "";
+    final String server = "localhost";
+    final String dataBase = "exampleDB";
+    final String user = "root";
+    final String pass = "";
     private MySQLClient()
     {
         try{
